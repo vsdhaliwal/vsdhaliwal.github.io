@@ -232,7 +232,8 @@
             const e = document.querySelector(".container");
 
             // RESIZE
-            e.style.maxWidth = "700px";
+            e.style.maxWidth = "770px";
+            e.style.maxHeight = "1008px";
             
             // OPTIONS
             const opt = {
@@ -253,7 +254,7 @@
             };
             html2pdf().set(opt).from(e).save();
 
-            setTimeout(() => {e.style.maxWidth = "1400px";}, 2000);
+            setTimeout(() => {e.style.maxWidth = "770px";}, 2000);
         }
 
     </script>
